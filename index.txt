@@ -1,4 +1,4 @@
-Kane Williams - Web & App Developer
+Kyah Bourbon-Bienville
 
 This is a personal portfolio html template made by codewithsadee
 
@@ -21,12 +21,11 @@ Contact
 
 #---------- HERO ----------#
 
-Kane Williams
-Creative Web & App Developer
+Kyah Bourbon-Bienville
+Business Analytics & Statistics connoisseur
 
-alt = kane williams
-
-Hi, I’m kane williams and I am creative web & app developer who dream making the world better place by creating captivating products.
+alt = Kyah Bourbon-Bienville
+Hello, my name is Kyah Bourbon-Bienville and I am happy to be here.
 
 Download CV
 <ion-icon name="download-outline" aria-hidden="true"></ion-icon>
