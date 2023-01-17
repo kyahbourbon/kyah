@@ -1,4 +1,4 @@
-Kane Williams - Web & App Developer
+Kyah
 
 This is a personal portfolio html template made by codewithsadee
 
@@ -21,10 +21,10 @@ Contact
 
 #---------- HERO ----------#
 
-Kane Williams
+Kyah
 Creative Web & App Developer
 
-alt = kane williams
+alt = Kyah
 
 Hi, I’m kane williams and I am creative web & app developer who dream making the world better place by creating captivating products.
 
