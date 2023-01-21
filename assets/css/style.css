@@ -473,7 +473,7 @@ body.nav-active { overflow: hidden; }
 .hero-title {
   text-transform: none;
   text-shadow: 10px green
-  word-break: normal;
+  
 }
 
 .hero-subtitle {
