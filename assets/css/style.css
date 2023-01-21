@@ -27,6 +27,10 @@
   --white: hsla(0, 0%, 100%, 1);
   --white_a10: hsla(0, 0%, 100%, 0.1);
   --white_a5: hsla(0, 0%, 100%, 0.05);
+  --red:hsla(1, 71%, 48%, 1);
+  --blue: hsla(220, 71%, 48%, 1);
+
+
 
   /**
    * typography
@@ -221,7 +225,7 @@ body.nav-active { overflow: hidden; }
   font-weight: var(--fw-700);
   margin-block-end: 20px;
   letter-spacing: 2px;
-}
+  }
 
 .section-title { margin-block-end: 45px; }
 
@@ -467,8 +471,9 @@ body.nav-active { overflow: hidden; }
 .hero { padding-block-start: 130px; }
 
 .hero-title {
-  text-transform: uppercase;
-  word-break: break-all;
+  text-transform: none;
+  text-shadow: 10px green
+  
 }
 
 .hero-subtitle {
@@ -483,6 +488,8 @@ body.nav-active { overflow: hidden; }
 
 .hero-banner {
   border-radius: var(--blob-radius);
+  border-right: 4mm dotted rgba(77, 130, 13, 0.6);
+  border-right-style: groove;
   overflow: hidden;
   animation: blobAnim 30s linear infinite;
 }
@@ -512,7 +519,11 @@ body.nav-active { overflow: hidden; }
 
 }
 
-.hero .section-text { margin-block: 30px; }
+.hero .section-text { margin-block: 30px;
+  color: var(--white);
+  backdrop-filter: blur(15px);       
+  font-weight:none;
+   }
 
 .hero .btn { margin-inline: auto; }
 
