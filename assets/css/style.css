@@ -582,6 +582,12 @@ body.nav-active { overflow: hidden; }
 
 .skills .section-text { margin-block-end: 20px; }
 
+.skills .card-icon ion-icon {
+  color: var(--content-color, var(--raisin-black));
+  font-size: 6rem;
+  --ionicon-stroke-width: 15px; align-content: center;
+}
+
 .skills .btn { margin-block: 45px; }
 
 .skills-list li:not(:last-child) { margin-block-end: 30px; }
