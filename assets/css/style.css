@@ -310,6 +310,11 @@ body.nav-active { overflow: hidden; }
   aspect-ratio: var(--width) / var(--height);
   background-color: var(--white_a5);
   overflow: hidden;
+
+}
+
+.kub-logo {
+  background-color: transparent;
 }
 
 .img-cover {
@@ -844,11 +849,13 @@ body.nav-active { overflow: hidden; }
    * SKILL
    */
 
-  .skills-wrapper {
+   
+  /* .skills-wrapper {
     display: grid;
     grid-template-columns: 0.8fr 1fr;
     gap: 40px;
-  }
+  } */
+  
 
   .skills .btn { margin-block-end: 0; }
 
