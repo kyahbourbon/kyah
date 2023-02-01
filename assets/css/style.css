@@ -310,6 +310,11 @@ body.nav-active { overflow: hidden; }
   aspect-ratio: var(--width) / var(--height);
   background-color: var(--white_a5);
   overflow: hidden;
+
+}
+
+.kub-logo {
+  background-color: transparent;
 }
 
 .img-cover {
@@ -630,7 +635,7 @@ body.nav-active { overflow: hidden; }
 .portfolio-card .img-cover { transition: var(--cubic-ease-out); }
 
 .portfolio-card .card-content {
-  position: absolute;
+  position: relative;
   top: 50%;
   left: 50%;
   text-align: center;
@@ -662,12 +667,12 @@ body.nav-active { overflow: hidden; }
 \*-----------------------------------*/
 
 .blog-list {
-  display: grid;
+  display:grid;
   gap: 60px;
 }
 
 .blog-card {
-  display: grid;
+  display: block;
   gap: 40px;
 }
 
@@ -757,7 +762,7 @@ body.nav-active { overflow: hidden; }
 
   .blog-card .card-content {
     padding-inline: 32px;
-    gap: 32px;
+    gap: calc(20px + 10%); 
   }
 
 
@@ -844,11 +849,13 @@ body.nav-active { overflow: hidden; }
    * SKILL
    */
 
-  .skills-wrapper {
+   
+  /* .skills-wrapper {
     display: grid;
     grid-template-columns: 0.8fr 1fr;
     gap: 40px;
-  }
+  } */
+  
 
   .skills .btn { margin-block-end: 0; }
 
@@ -932,7 +939,7 @@ body.nav-active { overflow: hidden; }
 
   .blog-card {
     grid-template-columns: 1fr 1fr;
-    gap: 24px;
+    gap: calc(20px + 10%);
   }
 
   .blog-card .card-content { padding: 32px; }
