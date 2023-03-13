@@ -307,19 +307,27 @@ body.nav-active { overflow: hidden; }
 }
 
 .img-holder {
-  aspect-ratio: var(--width) / var(--height);
-  background-color: var(--white_a5);
+  width: 300px;
+  height: 100px;
+  background-color: white;
   overflow: hidden;
 
 }
 
 .kub-logo {
-  background-color: transparent;
+  background-color:  white;
 }
 
+.clayton-logo {
+  background-color: white;
+}
+
+.hga-logo {
+  object-fit: scale-down;
+}
 .img-cover {
   width: 300px;
-  height: 200px;
+  height: 100px;
   object-fit: contain;
 }
 
@@ -940,13 +948,13 @@ offset-position:var(--section-padding)  ;}
    */
 
   .blog-card {
-    grid-template-columns: 1fr 1fr;
-    gap: calc(20px + 10%);
+    grid-template-columns: 60px 60px;;
+    
   }
 
   .blog-card .card-content { padding: 32px; }
 
-  .blog-list li:nth-child(2n) .card-banner { order: 1; }
+.blog-list li:nth-child(2n) .card-banner { order: 1; }
 
 }
 
