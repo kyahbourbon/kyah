@@ -771,6 +771,7 @@ offset-position:var(--section-padding)  ;}
    */
 
   .blog-card .card-content {
+    position: relative;
     padding-inline: 32px;
     gap: calc(20px + 10%); 
   }
@@ -939,7 +940,7 @@ offset-position:var(--section-padding)  ;}
 
   .skills .section-title { max-width: 16ch; }
 
-  .skills-wrapper { gap: 10%; }
+  .skills-wrapper { gap: 20%; }
 
 
 
