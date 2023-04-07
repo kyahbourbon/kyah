@@ -687,7 +687,7 @@ body.nav-active { overflow: hidden; }
 .blog-card .card-content {
   display: inline-block;
   gap: 40px;
-  padding-inline: 160px;
+  /*padding-inline: 160px;*/
 }
 
 .blog-card .time { font-size: relative; 
