@@ -537,6 +537,11 @@ body.nav-active { overflow: hidden; }
   backdrop-filter: blur(15px);       
   font-weight:none;
    }
+   .hero .section-text1 { margin-block: 30px;
+    color: var(--white);
+    backdrop-filter: blur(15px);       
+    font-weight:none;
+     }
 
 .hero .btn { margin-inline: auto; }
 
@@ -687,7 +692,7 @@ body.nav-active { overflow: hidden; }
 .blog-card .card-content {
   display: inline-block;
   gap: 40px;
-  padding-inline: 160px;
+  /*padding-inline: 160px;*/
 }
 
 .blog-card .time { font-size: relative; 
